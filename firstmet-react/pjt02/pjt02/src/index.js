@@ -7,16 +7,16 @@ import reportWebVitals from './reportWebVitals';
 import Library from './chapter_03/Library';
 import Clock from './chapter_04/Clock';
 import CommentList from './chapter_05/CommentList';
+import NotificationList from './chapter_06/NotificationList';
+import Accomodate from './chapter_07/Accommodate';
 
-setInterval(() => {
-  ReactDOM.render(
-    <React.StrictMode>
-      <CommentList/>
-      <Clock />
-    </React.StrictMode>,
-    document.getElementById('root')
-  );
-}, 1000);
+ReactDOM.render(
+  <React.StrictMode>
+    <Accomodate/>
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
