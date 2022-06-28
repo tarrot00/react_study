@@ -9,10 +9,17 @@ import Clock from './chapter_04/Clock';
 import CommentList from './chapter_05/CommentList';
 import NotificationList from './chapter_06/NotificationList';
 import Accomodate from './chapter_07/Accommodate';
+import ConfirmButton  from './chapter_08/ConfirmButton';
+import ConfirmButtonFunction from './chapter_08/ConfirmButtonFunciton';
+import LandingPage from './chapter_09/LandingPage';
+import AttendanceBook from './chapter_10/AttendanceBook';
+import SignUP from './chapter_11/SignUp';
+import Calculator from './chapter_12/Calculator';
+import ProfileCard from './chapter_13/ProfileCard'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Accomodate/>
+    <ProfileCard/>
   </React.StrictMode>,
   document.getElementById('root')
 );
